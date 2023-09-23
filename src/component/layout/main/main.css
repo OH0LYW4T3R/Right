@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Nanum+Gothic:wght@400;700&family=Ubuntu&display=swap");
+
+.main_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fobu {
+  font-family: "Nanum Gothic", sans-serif;
+
+  margin-top: 20vh;
+  margin-left: 10vw;
+  font-size: 3vh;
+  line-height: 10vh;
+  color: rgb(252, 252, 252);
+}
+.team_name {
+  margin-top: -3vh;
+  margin-right: 8vw;
+  font-size: 7vh;
+  color: #efe365;
+  text-shadow: 0px 0px 10px rgb(254, 242, 6);
+}
+
+.big_name {
+  font-size: 70vh;
+  color: #efe365;
+}
+
+

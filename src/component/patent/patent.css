@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic+Coding&family=Nanum+Gothic:wght@400;700&family=Ubuntu&display=swap');
+
+.background {
+    background-attachment: fixed;
+    background-size: cover; /* 또는 background-size: 100% auto; */
+    background-repeat: no-repeat;
+}
+
+.patent_name {
+  margin-left: 10.5vw;
+  margin-top: 20vh;
+  color: white;
+  font-family: 'Jua', sans-serif;
+}
+
+.man_img {
+  width: 12vw;
+  height: 14vh;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(254, 242, 6);
+}
+
+.patent_container {
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.select_info {
+  background-color: #f0f0f0; /* 배경색 */
+  padding: 10px; /* 내부 여백 */
+  border: 1px solid #ccc; /* 테두리 */
+  border-radius: 5px; /* 테두리 둥글게 */
+  margin-top: 10px; /* 위쪽 마진 */
+}
+
+.select_info div {
+  margin-bottom: 5px; /* 각 정보 아래 여백 */
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.item {
+  flex: 0 1 20%; /* 5 items in a row */
+  max-width: calc(20% - 10px); /* Adjust for gap */
+}
+
+.item.break {
+  flex-basis: 100%; /* Force new row after 5 items */
+}
+
+.patent_container {
+  max-width: 1200px; /* Adjust maximum width as needed */
+  margin: 0 auto;
+}
+
+.default_patent {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.attorney_name {
+  margin: 0;
+  margin-top: -20px;
+  margin-bottom: 5vh;
+  color: white;
+  font-family: 'Jua', sans-serif;
+}

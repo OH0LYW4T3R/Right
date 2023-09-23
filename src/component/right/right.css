@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic+Coding&family=Nanum+Gothic:wght@400;700&family=Ubuntu&display=swap');
+
+.background {
+  width: 100vw;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    #121214,
+    #151619,
+    #18191d,
+    #1b1c22,
+    #1d1f27,
+    #1f222b,
+    #222630,
+    #242934,
+    #272c3a,
+    #2a303f,
+    #2e3345,
+    #32364b
+  );
+  background-attachment: fixed;
+  background-size: cover; /* 또는 background-size: 100% auto; */
+  background-repeat: no-repeat;
+}
+
+.content {
+    color: white;
+    font-family: 'Jua', sans-serif;
+    margin-top: 10vw;
+}
+
+.download {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right: 100px;
+}
+
+.kipris {
+    color : white;
+    text-decoration: none;
+    position: absolute;
+    right: 22px;
+}
+
+.link {
+    color: white;
+}
+
+.search_img{
+}
+
+.line_1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 20px;
+}
+.line_2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 20px;
+}
+.line_3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 20px;
+}
+.line_4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 100px;
+}
+
+.img_1 {
+  width: 45vw;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(254, 242, 6);
+}
+.img_2 {
+  width: 45vw;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(254, 242, 6);
+}
+.img_3 {
+  width: 45vw;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(254, 242, 6);
+}
+.img_4 {
+  width: 45vw;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(254, 242, 6);
+}
+.img_5 {
+  width: 45vw;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(254, 242, 6);
+}
+.img_6 {
+  width: 45vw;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(254, 242, 6);
+}
+.img_7 {
+  width: 45vw;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(254, 242, 6);
+}
+.img_8 {
+  width: 45vw;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgb(254, 242, 6);
+}
+
+.right_row {
+    color: white;
+}

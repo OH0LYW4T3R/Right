@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Nanum+Gothic:wght@400;700&family=Ubuntu&display=swap");
+.header_box {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 4vw;
+    height: 6vh;
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+
+.IGHT {
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 12pt;
+    color: #efe365;
+    font-weight: bolder;
+}
